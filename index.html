@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap site</title>
+  <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min_scetchy.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="libs/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body class="min-vh-100">
+  <!--HEADER-->
+  <header class="header bg-secondary mb-2 pt-2 pb-0">
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-light mb-3">
+          <h1>Site with Bootstrap</h1>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="#">
+          <img class="logo-img" src="assets/img/tetris.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav-dropdown"
+          aria-controls="navbar-nav-dropdown" aria-expanded="false" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-nav-dropdown">
+          <ul class="navbar-nav me-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-house-door"></i>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Продукты
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Security Software</a></li>
+                <li><a class="dropdown-item" href="#">Браузеры</a></li>
+                <li><a class="dropdown-item" href="#">Software для бизнеса</a></li>
+                <li><a class="dropdown-item" href="#">Mac Software</a></li>
+                <li><a class="dropdown-item" href="#">Цифровое Фото</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Обзоры
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Обзоры про Security Software</a></li>
+                <li><a class="dropdown-item" href="#">Все о браузерах</a></li>
+                <li><a class="dropdown-item" href="#">Обзоры про Software for Busines</a></li>
+                <li><a class="dropdown-item" href="#">Обзор о Mac Software</a></li>
+                <li><a class="dropdown-item" href="#">Цифровое Фото</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-nav-dropdown">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Загрузки
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Security Software</a></li>
+                <li><a class="dropdown-item" href="#">Браузеры</a></li>
+                <li><a class="dropdown-item" href="#">Software для бизнеса</a></li>
+                <li><a class="dropdown-item" href="#">Mac Software</a></li>
+                <li><a class="dropdown-item" href="#">Цифровое Фото</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Новости</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--CONTENT main-->
+  <div class="container pb-5">
+    <div class="row">
+      <div class=" main col-xxl-6 col-xl-8 bg-light mb-2">
+        <div class="accordion pb-2" id="accordion-panels-stay-open-example">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header text-center" id="panels-stay-open-heading-one">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panels-stay-open-collapse-one" aria-expanded="true"
+                aria-controls="panels-stay-open-collapse-one">
+                Кибербезопасность
+              </button>
+            </h2>
+            <div id="panels-stay-open-collapse-one" class="accordion-collapse collapse show"
+              aria-labelledby="panels-stay-open-heading-one">
+              <div class="accordion-body">
+                <strong>Что такое кибербезопасность?</strong>
+                Кибербезопасность (ее иногда называют компьютерной безопасностью) – это совокупность методов и практик
+                защиты от атак злоумышленников для компьютеров, серверов, мобильных устройств, электронных систем, сетей
+                и данных. Кибербезопасность находит применение в самых разных областях, от бизнес-сферы до мобильных
+                технологий. В этом направлении можно выделить несколько основных категорий.
+                Безопасность сетей– действия по защите компьютерных сетей от различных угроз, например целевых атак или
+                вредоносных программ.
+                Безопасность приложений– защита устройств от угроз, которые преступники могут спрятать в программах.
+                Зараженное приложение может открыть злоумышленнику доступ к данным, которые оно должно защищать.
+                Безопасность приложения обеспечивается еще на стадии разработки, задолго до его появления в открытых
+                источниках.
+                Безопасность информации– обеспечение целостности и приватности данных как во время хранения, так и при
+                передаче.
+                Операционная безопасность– обращение с информационными активами и их защита. К этой категории относится,
+                например, управление разрешениями для доступа к сети или правилами, которые определяют, где и каким
+                образом данные могут храниться и передаваться.
+                Аварийное восстановление и непрерывность бизнеса – реагирование на инцидент безопасности (действия
+                злоумышленников) и любое другое событие, которое может нарушить работу систем или привести к потере
+                данных. <a href="">Читать далее>>></a>
+                <!--Аварийное восстановление – набор правил, описывающих то, как организация будет бороться с
+                последствиями атаки и восстанавливать рабочие процессы. Непрерывность бизнеса – план действий на случай,
+                если организация теряет доступ к определенным ресурсам из-за атаки злоумышленников.
+                Повышение осведомленности– обучение пользователей. Это направление помогает снизить влияние самого
+                непредсказуемого фактора в области кибербезопасности – человеческого. Даже самая защищенная система
+                может подвергнуться атаке из-за чьей-то ошибки или незнания. Поэтому каждая организация должна проводить
+                тренинги для сотрудников и рассказывать им о главных правилах: например, что не нужно открывать
+                подозрительные вложения в электронной почте или подключать сомнительные USB-устройства.-->
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panels-stay-open-heading-two">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panels-stay-open-collapse-two" aria-expanded="false"
+                aria-controls="panels-stay-open-collapse-two">
+                Браузер
+              </button>
+            </h2>
+            <div id="panels-stay-open-collapse-two" class="accordion-collapse collapse"
+              aria-labelledby="panels-stay-open-heading-two">
+              <div class="accordion-body">
+                <strong>Что такое браузер простыми словами?</strong> Как
+                посмотреть и очистить историю браузера? Что такое расширения для браузера? Зачем нужен VPN? Как очистить
+                кэш и где он находится? Что такое (cookies) куки в браузере, как их включить или удалить? На эти и
+                другие вопросы ответит специалист по интернету — Сергей Сапрыкин.
+
+                По статистике на начало 2019 года, всего насчитывается 4 100 667 287 (4 млрд!) интернет-пользователей.
+                То есть, 53% населения всей планеты пользуются Интернетом. Причем этот показатель резко начал расти с
+                2016 года и растет по сей день.
+
+                Интернет (еще его называют Всемирной паутиной, сетью) плотно вошел в жизнь людей. Пользователи смотрят
+                фильмы, изучают необходимую им информацию и даже работают через эту сеть.
+
+                Чтобы получить доступ ко всей информации, которая есть в Интернете, нужен браузер. Это словно
+                «платформа-проводник», которая позволяет с головой окунуться в изучение Всемирной паутины.
+                Источник: <a href="">https://myrouble.ru/chto-takoe-brauzer</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panels-stay-open-heading-three">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panels-stay-open-collapse-three" aria-expanded="false"
+                aria-controls="panels-stay-open-collapse-three">
+                Будь мобильным: лучшие приложения для управления бизнесом
+              </button>
+            </h2>
+            <div id="panels-stay-open-collapse-three" class="accordion-collapse collapse"
+              aria-labelledby="panels-stay-open-heading-three">
+              <div class="accordion-body">
+                <strong>Будь мобильным: лучшие приложения для управления бизнесом</strong> IКогда-то смартфоны
+                использовались в основном для развлечений, сейчас в них часто сосредоточена вся жизнь человека.
+                Бизнес-приложения для Айфона и приложения для бизнеса на Андроид помогают предпринимателям планировать
+                время, другие общаться с сотрудниками и клиентами, автоматизировать рутинные процессы. В этой статье
+                собраны лучшие приложения для бизнеса, которые помогут вам работать более эффективно и сосредоточиться
+                на развитии.Четкий план — залог успеха Любой ТОП приложений для бизнеса содержит программы для ведения
+                проектов, позволяющие планировать рабочее время, контролировать продуктивность сотрудников, рассчитывать
+                прибыль, делать прогнозы. Можно сказать, что эти программы – личный секретарь, к которому можно
+                обратиться в любое время суток.<a href="">Microsoft To Do</a>(бывший Wunderlist) Бесплатное
+                приложение, доступно для
+                в iOS, Android, Windows, Mac, имеется и веб-версия. Это простой планировщик, позволяющий работать со
+                списками дел с любого устройства, делиться ими с коллегами, создавать повторяющиеся задачи и
+                напоминания, разбивать сложные дела на этапы, которые удобно контролировать, добавлять к задачам заметки
+                и файлы размером до 25 МБ. Есть интеграция с Outlook, Microsoft Planner, голосовыми ассистентами Alexa и
+                Cortana.<a href="">Todoist</a> Работает на всех существующих платформах. Можно создать проект, расписать
+                его сроки,
+                сформулировать необходимые задачи. Также существует очень полезная функция — оценка производительности.
+                У этого приложения есть платная подписка (3 доллара в месяц), благодаря которой можно добавить некоторые
+                возможности. Например, получить доступ к задачам через календарь, подключить опцию резервного
+                копирования, смс-напоминания и пр.<a href="">Wrike</a>Платформа создана для эффективной командной
+                работы над
+                проектами. Сервис позволяет ставить задачи, отслеживать качество их выполнения. Андраш Густи,
+                руководитель студии разработки мобильных приложений, говорит: «Мы недавно открыли Wrike для себя, и
+                перевели всю деятельность компании на него. Есть некоторые сценарии, которые невозможно выполнить с этой
+                программой (последовательность задач и время их старта), но крупноуровневое планирование и отслеживание
+                работы сотрудников в нем вести сплошное удовольствие. Самое полезное — диаграмма Ганта, планирование и
+                учет трудозатрат. Кстати, использовать можно не только для ведения технических процессов, но и для
+                административных задач. Советую руководителям в любом сегменте — очень систематизирует мышление и
+                деятельность».
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panels-stay-open-heading-four">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panels-stay-open-collapse-four" aria-expanded="false"
+                aria-controls="panels-stay-open-collapse-four">
+                Полезнейшие программы для Mac
+              </button>
+            </h2>
+            <div id="panels-stay-open-collapse-four" class="accordion-collapse collapse"
+              aria-labelledby="panels-stay-open-heading-four">
+              <div class="accordion-body"> <strong>Регулярно удивляюсь разнообразию приложений, которые доступны в
+                  рамках операционной системы macOS.</strong>
+                Многие из них переворачивают манеру использования компьютеров Apple с ног на голову, а без некоторых сам
+                свой Mac уже просто не вижу.Теперь в такие подборки периодически будут попадать мобильные приложения,
+                которые отлично работают на M1 и доступны на Mac без танцев с бубном. К примеру, в этой как раз
+                затесалась любопытная iOS-утилита для контроля финансов.
+                1. BeardedSpice — привязка мультимедийных клавиш
+                Меню настройки этого замечательного приложения
+                С помощью этой утилиты получится привязать клавиши для управления воспроизведением к конкретному
+                музыкальному приложению: «Музыке», Spotify и так далее. Они перестанут перескакивать на фильмы-сериалы
+                или ролики на YouTube.<br>
+                2. Simplenote — публикация заметок в интернете с HTML
+                Одна из заметок, которые готовил по учёбе
+                Главная фишка этого заметочника заключается в возможности бесплатной публикации любой необходимой
+                информации в интернете. При этом может использоваться не только голый текст, но и элементы
+                форматирования средствами HTML.<br>
+                3. TinkerTool — гибкая настройка операционной системы
+                Первое меню приложения для гибкой настройки
+                Приложение, которое собрало в одном интерфейсе большинство системных твиков, обычно завязанных на
+                командах «Терминала».<br>
+                4. DriveDx — анализ работы встроенного накопителя
+                Анализ работы моего компьютера
+                С помощью этого приложения получится оценить состояние встроенного накопителя и узнать о нём много
+                нового.<br>
+                5. Silicio — обложка альбома для рабочего стола
+                Обложка альбома из Spotify на экране
+                Классное приложение, которое выводит обложку альбома для активного трека вместе с кнопками для
+                управления воспроизведением. Конечно, практической пользы от него не так много, но выглядит здорово, и в
+                этом ценность утилиты.<br>
+                6. iMobie M1 App Checker — проверка адаптации софта
+                Распределение по категориям установленного у меня софта
+                Данное приложение быстро поможет оценить, какие приложения пока не обновились для использования с M1. Их
+                лучше заменить.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--CONTENT left-->
+      <div class="left col-xxl-3 col-xl-4 col-lg-6 order-xxl-first order-lg-0 bg-light mb-2 pb-2">
+
+        <div id="carousel-example-captions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-example-captions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-example-captions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-example-captions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-example-captions" data-bs-slide-to="3"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-example-captions" data-bs-slide-to="4"
+              aria-label="Slide 4"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/software-security.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/macbook.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/foto.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/brauzer.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/busines.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-example-captions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-example-captions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!--CONTENT right-->
+      <div class="right col-xxl-3 col-xl-12 col-lg-6 bg-light mb-2 pb-2">
+
+        <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                Информация о нас
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>Маленькие мечты и грандиозные планы..</strong>С 2020 года мы воплощаем маленькие мечты и
+                грандиозные
+                планы миллионов людей. У нас можно найти буквально все. Мы продаем по справедливой цене и предоставляем
+                гарантию, так как считаем, что онлайн-шопинг должен быть максимально удобным и безопасным. И каждый раз,
+                когда кто-то нажимает «Купить», мы понимаем, что делаем нужное дело.Мы всегда с вами!!
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                Сотрудничество с нами
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong>Если вы хотите сотрудничать с нами,
+                пожалуйста, ознакомьтесь с нижеприведенной информацией.
+                <ul>
+                  <li>Указать преимущественные характеристики бренда, слабые и сильные стороны</li>
+                  <li>Кредитные условия</li>
+                  <li>Формы оплаты</li>
+                  <li>Сервисное обслуживание, возможность возврата</li>
+                  <li>Описание товаров в электронном виде</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary bg-secondary" data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">
+          Связаться с нами
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer bg-secondary py-3 position-fixed bottom-0 left-0 w-100 z-pozition">
+    <div class="container">
+      <div class="row text-light">
+        <div class="col"><span>&copy; Tsurkan Stanislav</span></div>
+        <div class="col text-end"><span>with Bootstrap v.5.2x</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Данные о себе</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <form class="row g-2 mb-2">
+            <div class="col-12">
+              <label for="input-name" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="input-name" placeholder="Имя">
+            </div>
+
+            <div class="col-12">
+              <label for="input-last-name" class="form-label">Фамилия</label>
+              <input type="text" class="form-control" id="input-last-name" placeholder="Фамилия">
+            </div>
+
+            <div class="col-md-6">
+              <label for="input-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="input-email">
+            </div>
+
+            <div class="col-md-6">
+              <label for="input-password" class="form-label">Пароль</label>
+              <input type="password" class="form-control" id="input-password">
+            </div>
+
+            <div class="col-md-8">
+              <label for="input-сity" class="form-label">Город</label>
+              <input type="text" class="form-control" id="input-сity">
+            </div>
+
+            <div class="col-md-4">
+              <label for="input-zip" class="form-label">Индекс</label>
+              <input type="text" class="form-control" id="input-zip">
+            </div>
+
+            <div class="col-md-12">
+              <label for="input-state" class="form-label">Область</label>
+              <select id="input-state" class="form-select">
+                <option selected>Выберите...</option>
+                <option>Винницкая</option>
+                <option>Волынская</option>
+                <option>Днепровская</option>
+                <option>Донецкая</option>
+                <option>Житомирская</option>
+                <option>Закарпатская</option>
+                <option>Запорожская</option>
+                <option>Ивано-Франковская</option>
+                <option>Киевская</option>
+                <option>Кировоградская</option>
+                <option>Львовская</option>
+                <option>Луганская</option>
+                <option>Николаевская</option>
+                <option>Одесская</option>
+                <option>Полтавская</option>
+                <option>Ровненская</option>
+                <option>Сумская</option>
+                <option>Тернопольская</option>
+                <option>Черкасская</option>
+                <option>Черниговская</option>
+                <option>Черновицкая</option>
+                <option>Хмельницкая</option>
+                <option>Харьковская</option>
+                <option>Херсонская</option>
+                <option>АР Крым</option>
+              </select>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-secondary">Зарегистрироваться</button>
+              <button type="submit" class="btn btn-secondary">Сбросить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

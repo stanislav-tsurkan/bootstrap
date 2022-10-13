@@ -1,0 +1,17 @@
+.logo-img {
+  height: 40px;
+}
+
+.dropdown-item {
+  -webkit-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #c1c1c1;
+}
+
+.z-pozition {
+  z-index: 2000;
+}

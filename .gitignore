@@ -1,0 +1,11 @@
+# IntellijIdea files
+.idea/
+.vscode/
+.DS_Store
+node_modules/
+yarn.lock
+package-lock.json
+README.md
+CMD.md
+.eslintignore
+.yarnrc
